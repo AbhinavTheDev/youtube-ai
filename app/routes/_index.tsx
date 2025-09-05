@@ -99,7 +99,7 @@ export default function Index() {
     <>
       <div className="flex flex-col h-screen bg-gray-50 overflow-y-auto">
         {/* Header */}
-        <header className="flex items-center justify-between px-4 py-3 border-b bg-white">
+        <header className="flex items-center justify-between px-4 py-3">
           <div className="flex items-center gap-3">
             <Logo width="110px" height="60px" />
             <h1 className="text-2xl font-bold text-gray-700">Youtube AI</h1>
@@ -209,7 +209,7 @@ export default function Index() {
 
             <div
               id="frame-box"
-              className="mt-6 flex-grow bg-gray-200 rounded-md flex items-center justify-center border-2 border-dashed border-gray-300 min-h-[200px] overflow-hidden"
+              className="mt-6 flex-grow bg-gray-200 rounded-md flex items-center justify-center border-2 border-dashed border-gray-300 min-h-[300px] overflow-hidden"
             >
               {videoPreview}
             </div>
